@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@400;500;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.main-section {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Mitr', sans-serif;
+}
+
+.countdown-container {
+    width: 50%;
+    height: 100%;
+}
+
+.image-container {
+    width: 50%;
+    height: 100%;
+}
+
+.heading {
+    font-size: 64px;
+    font-weight: normal;
+    color: #2F2E41;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 60px;
+
+}
+
+.time-container {
+    width: 176px;
+    height: 236px;
+    background: #6C63FF;
+    border-radius: 10px;
+    color: #FFF;
+    font-size: 48px;
+}
+
+.time-header {
+    font-size: 24px;
+    color: #2F2E41;
+}

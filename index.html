@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Time Left</title>
+</head>
+<body>
+    <section class="main-section d-flex">
+        <div class="countdown-container d-flex flex-column justify-content-center position-relative">
+            <h1 class="heading text-center">Time Left</h1>
+            <div class="d-flex justify-content-evenly">
+                <div class="d-flex flex-column align-items-center">
+                    <h4 class="time-header pb-3">Days</h4>
+                    <div class="time-container d-flex align-items-center justify-content-center" id="days">
+                        
+                    </div>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                    <h4 class="time-header pb-3">Hours</h4>
+                    <div class="time-container d-flex align-items-center justify-content-center" id="hours">
+                       
+                    </div>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                    <h4 class="time-header pb-3">Minutes</h4>
+                    <div class="time-container d-flex align-items-center justify-content-center" id="minutes">
+                        
+                    </div>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                    <h4 class="time-header pb-3">Seconds</h4>
+                    <div class="time-container d-flex align-items-center justify-content-center" id="seconds">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container d-flex align-items-center justify-content-center">
+            <img src="goal.svg" alt="">
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
